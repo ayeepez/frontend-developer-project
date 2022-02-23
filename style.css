@@ -61,15 +61,16 @@ body{
     border-radius: 8px;
 }
 .primary-button {
-     margin: 12px;
+     margin: 12px 0px 12px 0px;
      width: 100%;
-     border: none;
-     border-radius: 10px;
      display: flex;
      justify-content: center;
-     background-color: rgb(130, 209, 130);
      color: #F7F7F7;
      font-weight: light;
+     border: none;
+     border-radius: 10px;
+     background-color: rgb(130, 209, 130);
+     
  }
 
 

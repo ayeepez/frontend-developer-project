@@ -1,0 +1,107 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --dark: #232830;
+  --very-light-pink: #c7c7c7;
+  --text-input-field: #f7f7f7;
+  --hospital-green: #acd9b2;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-container {
+  width: 300px;
+}
+
+.logo img {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  width: 120px;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+}
+.subtitle {
+  width: 300px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2px 0px 3px 0px;
+  color: gray;
+}
+
+.subtitle p {
+  font-size: small;
+  align-items: center;
+}
+
+.label {
+  padding: 10px;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+img {
+  width: 100%;
+}
+
+.message-image {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 60px;
+  height: 58px;
+  border-radius: 50%;
+  background-color: gainsboro;
+}
+picture {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.primary-button {
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  color: #f7f7f7;
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(130, 209, 130);
+  margin: 12px auto 12px auto;
+}
+
+.receive {
+  font-weight: bolder;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  color: gray;
+  padding: 25px;
+}
+
+.receive a {
+  text-decoration: none;
+  color: #acd9b2;
+}
