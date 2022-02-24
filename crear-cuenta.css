@@ -1,0 +1,101 @@
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100vh;
+}
+
+.form div{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+   font-weight: bolder;
+   font-size:medium;
+   margin-top:8px;
+}
+.label {
+    padding: 10px;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.input {
+    height:30px;
+    padding: 6px;
+    background-color: var(--very-light-pink);
+    border: none;
+    border-radius: 8px;
+}
+
+.input-name,
+    .input-email,
+    .input-password {
+      margin-bottom: 22px;
+    }
+
+
+.save-button {
+     margin: 30px 0px 12px 0px;
+     width: 100%;
+     height: 50px;
+     border-radius: 8px;
+     border: none;
+     background-color: var(--hospital-green);
+     font-weight: bold;
+     font-family: "Quicksand", sans-serif;
+     font-size: medium;
+     color: var(--white);
+  
+ }
+
+ .primary-button{
+    margin-top: 14px;
+      margin-bottom: 30px; 
+ }
+
+ .login{
+     height:100%;
+ }
+
+ @media (max-width: 640px) {
+    .form-container {
+      height: 100%;
+    }
+    .form {
+      height: 100%;
+     justify-content: space-between;
+    }
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
