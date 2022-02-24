@@ -64,7 +64,7 @@ img {
   width: 60px;
   height: 58px;
   border-radius: 50%;
-  background-color: gainsboro;
+  background-color: #f7f7f7;
 }
 picture {
   display: flex;
@@ -88,7 +88,7 @@ button {
   font-family: "Quicksand", sans-serif;
   border: none;
   border-radius: 10px;
-  background-color: rgb(130, 209, 130);
+  background-color: var(--hospital-green);
   margin: 12px auto 12px auto;
 }
 

@@ -69,7 +69,7 @@ body{
      font-weight: light;
      border: none;
      border-radius: 10px;
-     background-color: rgb(130, 209, 130);
+     background-color: var(--hospital-green);
      
  }
 
